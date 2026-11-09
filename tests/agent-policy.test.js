@@ -42,3 +42,4 @@ describe('AgentGuard Trust Boundary & Policy Evaluator Tests', () => {
     expect(evalResult.riskLevel).toBe('LOW');
   });
 });
+

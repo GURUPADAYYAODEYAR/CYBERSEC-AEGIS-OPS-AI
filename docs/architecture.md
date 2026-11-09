@@ -70,3 +70,4 @@ flowchart TD
 - **Solid Colors Exclusively:** No gradients, neon glows, glassmorphism, or decorative particle canvas.
 - **Light & Dark Mode:** Dynamic CSS variable switching with crisp text legibility and high contrast.
 - **Top Right Developer Pill:** One-click developer modal spotlighting **Gurupadayya Odeyar** with direct links to GitHub, LinkedIn, and Email.
+

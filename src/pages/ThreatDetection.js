@@ -204,3 +204,4 @@ export class ThreatDetectionPage {
 
   destroy() {}
 }
+

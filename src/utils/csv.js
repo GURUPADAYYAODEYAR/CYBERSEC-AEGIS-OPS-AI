@@ -97,3 +97,4 @@ export function downloadFile(content, fileName, mimeType = 'text/plain') {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
+

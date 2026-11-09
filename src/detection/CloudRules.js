@@ -118,3 +118,4 @@ export class CloudRules {
     return findings;
   }
 }
+

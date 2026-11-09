@@ -21,3 +21,4 @@ describe('Simulation Lab Scenario Generator Tests', () => {
     expect(queue[3].action).toBe('USER_LOGIN_SUCCESS');
   });
 });
+

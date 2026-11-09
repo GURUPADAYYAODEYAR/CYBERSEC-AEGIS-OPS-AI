@@ -236,3 +236,4 @@ export class EventsPage {
     this.dataTable = null;
   }
 }
+

@@ -33,3 +33,4 @@ describe('AuthWatch Identity Travel & Geolocation Tests', () => {
     expect(result.isImpossibleTravel).toBe(false);
   });
 });
+

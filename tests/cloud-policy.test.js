@@ -51,3 +51,4 @@ describe('CloudFence Posture Assessment Tests', () => {
     expect(findings[0].policyId).toBe('CLOUD_004');
   });
 });
+

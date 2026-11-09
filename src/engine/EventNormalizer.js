@@ -108,3 +108,4 @@ export class EventNormalizer {
     }).filter(Boolean);
   }
 }
+

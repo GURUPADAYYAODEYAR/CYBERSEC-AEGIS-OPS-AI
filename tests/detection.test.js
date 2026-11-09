@@ -98,3 +98,4 @@ describe('Threat Detection Rules Tests', () => {
     expect(alerts[0].ruleId).toBe('STAT_001');
   });
 });
+

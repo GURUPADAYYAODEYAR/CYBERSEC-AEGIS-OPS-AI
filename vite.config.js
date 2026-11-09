@@ -6,7 +6,21 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
-    chunkSizeWarningLimit: 1000
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules/chart.js')) {
+            return 'vendor-charts';
+          }
+          if (id.includes('node_modules/cytoscape')) {
+            return 'vendor-graph';
+          }
+          if (id.includes('node_modules/lucide')) {
+            return 'vendor-icons';
+          }
+        }
+      }
+    }
   },
   test: {
     environment: 'node',

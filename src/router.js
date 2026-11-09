@@ -68,3 +68,4 @@ export class Router {
     this.mountElement.scrollTop = 0;
   }
 }
+

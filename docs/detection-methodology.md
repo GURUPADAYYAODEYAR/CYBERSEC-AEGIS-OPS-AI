@@ -55,3 +55,4 @@ Given coordinate locations $(lat_1, lon_1)$ at timestamp $t_1$, and $(lat_2, lon
    $$\text{Anomaly} \iff v > 900\text{ km/h} \land d > 300\text{ km}$$
 
 *Forensic note: The platform explicitly highlights that impossible travel is a heuristic that can be affected by commercial VPNs, proxies, shared egress gateways, or GeoIP database inaccuracies.*
+

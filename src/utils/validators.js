@@ -68,3 +68,4 @@ export function validateCloudConfig(config) {
     errors
   };
 }
+

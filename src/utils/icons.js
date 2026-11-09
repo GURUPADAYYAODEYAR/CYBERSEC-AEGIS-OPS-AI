@@ -36,3 +36,4 @@ export function createIconNode(name, options = {}) {
   div.innerHTML = renderIcon(name, options);
   return div.firstElementChild;
 }
+

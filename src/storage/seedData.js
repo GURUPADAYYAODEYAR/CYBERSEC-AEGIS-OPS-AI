@@ -561,3 +561,4 @@ export const INITIAL_DEMO_EVENTS = [
     }
   }
 ];
+

@@ -244,3 +244,4 @@ export class IdentitySecurityPage {
 
   destroy() {}
 }
+

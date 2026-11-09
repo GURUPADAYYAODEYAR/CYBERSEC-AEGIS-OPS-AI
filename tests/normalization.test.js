@@ -50,3 +50,4 @@ describe('EventNormalizer & CSV Parsing Tests', () => {
     expect(output).toContain('"LOGIN, SUCCESS"');
   });
 });
+

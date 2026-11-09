@@ -311,3 +311,4 @@ export class OverviewPage {
     if (this.catChart) this.catChart.destroy();
   }
 }
+

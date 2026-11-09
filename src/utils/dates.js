@@ -90,3 +90,4 @@ export function evaluateTravelVelocity(loc1, time1, loc2, time2, speedThresholdK
     isImpossibleTravel: speedKmh > speedThresholdKmh && distanceKm > 300
   };
 }
+

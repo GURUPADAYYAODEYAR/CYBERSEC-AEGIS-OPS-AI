@@ -200,3 +200,4 @@ export class GuidedTour {
     this.overlay = null;
   }
 }
+

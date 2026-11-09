@@ -119,3 +119,4 @@ export class DetailDrawer {
 
 // Global instance for convenience
 window.detailDrawer = new DetailDrawer();
+

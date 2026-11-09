@@ -155,3 +155,4 @@ export class AnalyticsPage {
     this.charts = [];
   }
 }
+

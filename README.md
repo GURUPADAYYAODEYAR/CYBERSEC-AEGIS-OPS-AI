@@ -225,3 +225,4 @@ The repository is configured to deploy directly to GitHub Pages via `.github/wor
 ## 11. License
 
 Released under the **MIT License**. Copyright &copy; 2026 Gurupadayya Odeyar.
+

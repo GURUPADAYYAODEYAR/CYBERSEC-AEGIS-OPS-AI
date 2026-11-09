@@ -332,3 +332,4 @@ export class IncidentsPage {
 
   destroy() {}
 }
+
