@@ -1,0 +1,155 @@
+[
+  {
+    "eventId": "evt-1001",
+    "timestamp": "2026-11-09T08:15:22.000Z",
+    "source": "Okta_IdP",
+    "eventType": "AUTHENTICATION",
+    "action": "USER_LOGIN_ATTEMPT",
+    "outcome": "FAILURE",
+    "userId": "user-schen",
+    "sourceIp": "185.220.101.5",
+    "destinationIp": "10.0.0.15",
+    "hostname": "auth-gateway-01",
+    "resourceId": "okta-auth-service",
+    "severity": "LOW",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "reason": "INVALID_CREDENTIALS",
+      "geo": { "city": "Frankfurt", "country": "DE", "lat": 50.1109, "lon": 8.6821 },
+      "deviceId": "dev-unknown-tor-node"
+    }
+  },
+  {
+    "eventId": "evt-1002",
+    "timestamp": "2026-11-09T08:16:05.000Z",
+    "source": "Okta_IdP",
+    "eventType": "AUTHENTICATION",
+    "action": "USER_LOGIN_ATTEMPT",
+    "outcome": "FAILURE",
+    "userId": "user-schen",
+    "sourceIp": "185.220.101.5",
+    "destinationIp": "10.0.0.15",
+    "hostname": "auth-gateway-01",
+    "resourceId": "okta-auth-service",
+    "severity": "LOW",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "reason": "INVALID_CREDENTIALS",
+      "geo": { "city": "Frankfurt", "country": "DE", "lat": 50.1109, "lon": 8.6821 },
+      "deviceId": "dev-unknown-tor-node"
+    }
+  },
+  {
+    "eventId": "evt-1003",
+    "timestamp": "2026-11-09T08:17:10.000Z",
+    "source": "Okta_IdP",
+    "eventType": "AUTHENTICATION",
+    "action": "USER_LOGIN_ATTEMPT",
+    "outcome": "FAILURE",
+    "userId": "user-schen",
+    "sourceIp": "185.220.101.5",
+    "destinationIp": "10.0.0.15",
+    "hostname": "auth-gateway-01",
+    "resourceId": "okta-auth-service",
+    "severity": "MEDIUM",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "reason": "INVALID_CREDENTIALS",
+      "consecutiveFailures": 3,
+      "geo": { "city": "Frankfurt", "country": "DE", "lat": 50.1109, "lon": 8.6821 },
+      "deviceId": "dev-unknown-tor-node"
+    }
+  },
+  {
+    "eventId": "evt-1004",
+    "timestamp": "2026-11-09T08:19:45.000Z",
+    "source": "Okta_IdP",
+    "eventType": "AUTHENTICATION",
+    "action": "USER_LOGIN_SUCCESS",
+    "outcome": "SUCCESS",
+    "userId": "user-schen",
+    "sourceIp": "185.220.101.5",
+    "destinationIp": "10.0.0.15",
+    "hostname": "auth-gateway-01",
+    "resourceId": "okta-auth-service",
+    "severity": "HIGH",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "mfaMethod": "SMS_OTP",
+      "geo": { "city": "Frankfurt", "country": "DE", "lat": 50.1109, "lon": 8.6821 },
+      "deviceId": "dev-unknown-tor-node"
+    }
+  },
+  {
+    "eventId": "evt-1005",
+    "timestamp": "2026-11-09T08:31:12.000Z",
+    "source": "Okta_IdP",
+    "eventType": "AUTHENTICATION",
+    "action": "USER_LOGIN_SUCCESS",
+    "outcome": "SUCCESS",
+    "userId": "user-schen",
+    "sourceIp": "203.0.113.190",
+    "destinationIp": "10.0.0.15",
+    "hostname": "auth-gateway-01",
+    "resourceId": "okta-auth-service",
+    "severity": "CRITICAL",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+      "geo": { "city": "Tokyo", "country": "JP", "lat": 35.6762, "lon": 139.6503 },
+      "deviceId": "dev-mac-tokyo-vpn"
+    }
+  },
+  {
+    "eventId": "evt-1006",
+    "timestamp": "2026-11-09T08:38:00.000Z",
+    "source": "AWS_CloudTrail",
+    "eventType": "CLOUD_AUDIT",
+    "action": "PutRolePolicy",
+    "outcome": "SUCCESS",
+    "userId": "user-schen",
+    "sourceIp": "203.0.113.190",
+    "destinationIp": "169.254.169.254",
+    "hostname": "iam.amazonaws.com",
+    "resourceId": "iam-role-devops-wildcard",
+    "severity": "HIGH",
+    "metadata": {
+      "policyName": "AllowAllWildcardPolicy",
+      "addedPermissions": ["*"]
+    }
+  },
+  {
+    "eventId": "evt-1007",
+    "timestamp": "2026-11-09T08:44:19.000Z",
+    "source": "AWS_CloudTrail",
+    "eventType": "CLOUD_AUDIT",
+    "action": "PutBucketAcl",
+    "outcome": "SUCCESS",
+    "userId": "user-schen",
+    "sourceIp": "203.0.113.190",
+    "destinationIp": "169.254.169.254",
+    "hostname": "s3.amazonaws.com",
+    "resourceId": "s3-corporate-finance-vault",
+    "severity": "CRITICAL",
+    "metadata": {
+      "acl": "public-read-write"
+    }
+  },
+  {
+    "eventId": "evt-1008",
+    "timestamp": "2026-11-09T08:50:30.000Z",
+    "source": "AgentGuard_Runtime",
+    "eventType": "AI_AGENT_EXECUTION",
+    "action": "TOOL_CALL_ATTEMPT",
+    "outcome": "BLOCKED",
+    "userId": "user-schen",
+    "sourceIp": "203.0.113.190",
+    "destinationIp": "10.0.10.50",
+    "hostname": "agent-runtime-node-03",
+    "resourceId": "agent-session-9081",
+    "severity": "CRITICAL",
+    "metadata": {
+      "tool": "read_filesystem_secret",
+      "target": "~/.aws/credentials"
+    }
+  }
+]

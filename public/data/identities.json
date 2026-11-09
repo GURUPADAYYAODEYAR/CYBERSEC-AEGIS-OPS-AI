@@ -1,0 +1,41 @@
+[
+  {
+    "userId": "user-schen",
+    "displayName": "Sarah Chen",
+    "email": "sarah.chen@aegis-corp.sim",
+    "department": "Cloud Infrastructure",
+    "role": "Principal Cloud Architect",
+    "privilegeLevel": "Cloud_Admin",
+    "normalSchedule": "Mon-Fri 09:00-19:00 PST",
+    "homeLocation": { "city": "San Francisco", "country": "US", "lat": 37.7749, "lon": -122.4194 },
+    "knownDevices": ["dev-mac-schen-01", "dev-iphone-schen"],
+    "knownIps": ["198.51.100.45", "198.51.100.46"],
+    "riskScore": 88
+  },
+  {
+    "userId": "user-arivera",
+    "displayName": "Alex Rivera",
+    "email": "alex.rivera@aegis-corp.sim",
+    "department": "Security Operations",
+    "role": "Senior SecOps Lead",
+    "privilegeLevel": "SecOps_Admin",
+    "normalSchedule": "Mon-Fri 08:00-18:00 EST",
+    "homeLocation": { "city": "New York", "country": "US", "lat": 40.7128, "lon": -74.0060 },
+    "knownDevices": ["dev-thinkpad-arivera"],
+    "knownIps": ["198.51.100.22"],
+    "riskScore": 15
+  },
+  {
+    "userId": "user-jtaylor",
+    "displayName": "Jordan Taylor",
+    "email": "jordan.taylor@aegis-corp.sim",
+    "department": "Platform Engineering",
+    "role": "Senior DevOps Engineer",
+    "privilegeLevel": "DevOps_Contributor",
+    "normalSchedule": "Mon-Fri 08:30-17:30 GMT",
+    "homeLocation": { "city": "London", "country": "UK", "lat": 51.5074, "lon": -0.1278 },
+    "knownDevices": ["dev-linux-jtaylor"],
+    "knownIps": ["203.0.113.88"],
+    "riskScore": 22
+  }
+]

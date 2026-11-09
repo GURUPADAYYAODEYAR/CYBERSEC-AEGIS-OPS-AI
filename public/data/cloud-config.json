@@ -1,0 +1,47 @@
+{
+  "cloudProvider": "AWS",
+  "environment": "Production-Simulation",
+  "auditTimestamp": "2026-11-09T08:00:00Z",
+  "resources": [
+    {
+      "resourceId": "s3-corporate-finance-vault",
+      "resourceName": "corporate-finance-vault-prod",
+      "resourceType": "S3_BUCKET",
+      "region": "us-east-1",
+      "isPublic": true,
+      "encrypted": false,
+      "policyRules": {
+        "publicAccessBlock": false,
+        "acl": "public-read-write"
+      },
+      "owner": "user-mvance"
+    },
+    {
+      "resourceId": "iam-role-devops-wildcard",
+      "resourceName": "DevOpsExecutionRole",
+      "resourceType": "IAM_ROLE",
+      "region": "global",
+      "isOverprivileged": true,
+      "statement": [
+        {
+          "Effect": "Allow",
+          "Action": "*",
+          "Resource": "*"
+        }
+      ],
+      "owner": "user-schen"
+    },
+    {
+      "resourceId": "sg-production-ingress",
+      "resourceName": "prod-edge-security-group",
+      "resourceType": "SECURITY_GROUP",
+      "region": "us-east-1",
+      "ingressRules": [
+        { "protocol": "tcp", "port": 443, "source": "0.0.0.0/0", "isRisky": false },
+        { "protocol": "tcp", "port": 22, "source": "0.0.0.0/0", "isRisky": true },
+        { "protocol": "tcp", "port": 3389, "source": "0.0.0.0/0", "isRisky": true }
+      ],
+      "owner": "user-schen"
+    }
+  ]
+}
